@@ -154,6 +154,7 @@ is designed to be faster and more efficient, enhancing the overall performance o
 - **DETR:** Relies on transformers, which struggle with small objects due to **fixed-length queries** and **lack of multi-scale priors**. 
 <div>
 
+<a id="#references"></a>
 # 📚 References  
 1. **YOLO11**:
 [Ultralytics Documentation](https://docs.ultralytics.com/models/yolo11/)  
