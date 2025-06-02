@@ -19,11 +19,11 @@ This notebook provides a comprehensive benchmark of YOLO11 and DETR-Resnet50 arc
 </div>
 
 # 📝 Table of contents
-1. <a href='#dataset'>Dataset Description</a>
-2. <a href='#methodology'>Methodology</a>
-4. <a href='#conclusion'>Conclusion</a>
-3. <a href='#references'>References</a>
-
+1. [Dataset Description](#dataset-description)
+2. [Methodology](#methodology)
+3. [Conclusion](#conclusion)
+4. [References](#references)
+   
 # Dataset Description
 # 📂 Data Sources
 | Dataset Name       | Source | Classes | Resolution | License |
@@ -63,6 +63,7 @@ Y=0 is the top edge, Y=1 is the bottom edge.
   <img src="./images/spa_dist.png" alt="Spatial">
 </div>
 
+<a name="methodology"></a>
 # 🛠️ Methodology 
 <div style="background-color: rgb(208, 242, 255); padding: 20px; font-family: Arial, sans-serif; color: #333; line-height: 1.5;">
 
@@ -143,6 +144,7 @@ IF a ground truth box has no matching prediction, it's a **false positive (FP)**
   <img src="./images/confusion_matrix_normalized.png" alt="yolo11">
 </div>
 
+<a name="conclusion"></a>
 # 🧠 Conclusion
 <div style="background-color: rgb(208, 242, 255); padding: 20px; font-family: Arial, sans-serif; color: #333; line-height: 1.5;">
 
@@ -154,7 +156,7 @@ is designed to be faster and more efficient, enhancing the overall performance o
 - **DETR:** Relies on transformers, which struggle with small objects due to **fixed-length queries** and **lack of multi-scale priors**. 
 <div>
 
-<a id="#references"></a>
+<a name="references"></a>
 # 📚 References  
 1. **YOLO11**:
 [Ultralytics Documentation](https://docs.ultralytics.com/models/yolo11/)  
