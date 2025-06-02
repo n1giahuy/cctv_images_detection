@@ -62,6 +62,7 @@ Y=0 is the top edge, Y=1 is the bottom edge.
 <div>
   <img src="./images/spa_dist.png" alt="Spatial">
 </div>
+
 # 🛠️ Methodology 
 <div style="background-color: rgb(208, 242, 255); padding: 20px; font-family: Arial, sans-serif; color: #333; line-height: 1.5;">
 
